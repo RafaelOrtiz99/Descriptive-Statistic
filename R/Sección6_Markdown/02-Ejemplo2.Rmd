@@ -1,0 +1,65 @@
+---
+title: "Documentación de texto"
+author: "Rafael Ortiz"
+date: "11/12/2020"
+output: html_document
+---
+
+#Titulo
+
+##Titulo 2
+
+### Titulo 3
+
+#### Titulo 4
+
+##### Titulo 5
+
+###### Titulo 6
+
+Texto para acompañarlo con código de `R` con formulas de $\LaTeX$
+
+Nueva linea, para que separe los parrafos necesitamos al menos doble intro
+
+Para colocar cursiva podemos usar un asterisco: *Texto en cursiva* o usar una barra baja _cursiva_
+
+Para colocar **negrita**, es doble asterisco o doble barra baja __negrita__
+
+superindice: nota^2^.
+
+Para tachar una palabra, doble tilde ~~Matematicas~~
+
+Para visitar una url haga click [aquí](url)
+
+endash: --
+emdash: ---
+
+ecuaciones en línea: $S= \pi\cdot r^2$.
+
+image ![](../../repositorio/r-basic-master/teoria/Imgs/C++File.png)
+
+***
+
+Empezamos otra sección
+
+> Cita en bloque
+
+### Listas no ordenadas
+* Item 1
+* Item 2
+* Item 3
+  + subitem 1
+  + subitem 2
+  
+### Lista ordenada 
+1. item 1
+2. item 2
+  +subitem
+1. item 4
+
+### tabla
+
+Alumno   | Nota
+---------|-----
+Rafael   | 3.5
+Dolmedes | 4

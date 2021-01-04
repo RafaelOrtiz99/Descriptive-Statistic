@@ -3,7 +3,7 @@
 #Raíz cuadrada
 sqrt(9)
 
-#Exponencial e^x
+#e
 exp(5)
 
 #Logaritmo

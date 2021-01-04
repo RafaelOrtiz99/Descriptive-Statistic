@@ -1,0 +1,9 @@
+Anaconda
+pip
+
+Instalar paquete
+pip install <nombre-paquete>
+pip install <nombre-paquete>==version
+
+Actualizar paquete
+pip install  --upgrade <nombre-paquete>
