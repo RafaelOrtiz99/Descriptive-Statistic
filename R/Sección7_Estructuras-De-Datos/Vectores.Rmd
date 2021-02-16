@@ -55,8 +55,82 @@ vec <- c(16,0,1,20,1,7,88,5,1,9)
 #fix(vec)
 ```
 
+# Progresiones Aritméticas 
+
+```{r}
+seq(5, 60, by = 5)
+seq(100,9, by = -9)
+```
+
+# Ejercicios
+
+```{r}
+#Primeros 20 números
+1:20
+
+#Primeros 20 números pares
+seq(2, 20, by = 2)
+
+#números equidistantes, 4 cifras significativas
+seq(1, 30, length.out=4)
+```
+
+# Funciones y orden de vectores
+
+```{r}
+x <- 1:10
+sqrt(x)
+sapply(x, FUN = function(element){sqrt(element)})
+```
+
+## Funciones
+```{r}
+#longitud de vector
+length(x)
+
+#Número máximo
+max(x)
+
+#Número mínimo
+min(x)
+
+#Producto de los numeros del vector
+prod(x)
+
+#Media aritmetica
+mean(x)
+
+#Calcular las diferencias sucesivas entre las entradas del vector
+diff(x)
+
+#Sumas acumuladas 
+cumsum(x)
+
+#Ordenar vector
+v <- c(1,6,7,5,4,2,3)
+sort(v)
+
+#Invertir el orden del vector
+rev(v)
+```
+
+# Ejercicios
+```{r}
+#1 Función que dado un vector x, lo devuelva ordenado decreciente
+orden_decreciente <- function(x){
+  rev(sort(x))
+}
+
+vector <- c(3,4,5,1,2,7,89)
+orden_decreciente(vector)
+
+#2 verificar algún argumento de la función sort para realizar el punto 1 sin crear una función a parte
+sort(vector, decreasing = T)
+```
 
 
+
+  
 
 
 

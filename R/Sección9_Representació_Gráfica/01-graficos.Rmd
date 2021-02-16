@@ -1,0 +1,43 @@
+---
+title: "Graficos"
+author: "Rafael Ortiz"
+date: "12/1/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Graficos con la función `plot`
+```{r}
+alumnos <- c(1:10)
+notas <- c(2,5,7,9,8,3,5,6,10,7)
+plot(alumnos, notas)
+```
+
+```{r primer_plot, fig.cap='Gráfico'}
+x <- c(2,6,4,9,1)
+y <- c(1,8,4,-2,4)
+plot(x,y)
+```
+
+```{r}
+plot(2^(1:6))
+```
+
+```{r}
+f <- function(x){sqrt(x)}
+plot(f)
+```
+
+#Parámetros de la función plot()
+- log: indicar que se quiere el gráfico en escala logarítmica
+- main("titulo"): poner título al gráfico
+- expression(): poner título al gráfico, pero en vez un texto, recibe una función matemática
+
+
+
+
+
+
